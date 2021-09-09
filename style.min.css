@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap");@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;
+
+/** 
+*   Theme Name: Hannelise 
+*   Author: Magnus Westhofen
+*   Version: 0.1
+**/
+
+700&display=swap");body{font-family:"Roboto","sans-serif";font-size:16px;margin:0;padding:0;color:#4f5250}
+*{-webkit-box-sizing:border-box;box-sizing:border-box}
+h1,h2{margin-top:0;font-family:"Kaisei Tokumin",sans-serif;font-size:2.5rem;text-transform:uppercase;font-weight:400}
+.page-wrap{overflow:hidden}
+header{max-width:1200px;width:100%;margin:0 auto;padding:0 1rem}
+header .main-header{padding:1rem 0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end}
+header .main-header .logo{height:80px;width:auto}
+header .main-header .hamburger{-ms-flex-item-align:start;align-self:flex-start;display:none}
+header .main-header .hamburger .line{width:2rem;height:3px;background-color:#4f5250;display:block;margin:5px auto;-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+.menu-show header .main-header .hamburger .line:nth-child(2){opacity:0}
+.menu-show header .main-header .hamburger .line:nth-child(1){-webkit-transform:translateY(8px) rotate(45deg);transform:translateY(8px) rotate(45deg)}
+.menu-show header .main-header .hamburger .line:nth-child(3){-webkit-transform:translateY(-8px) rotate(-45deg);transform:translateY(-8px) rotate(-45deg)}
+header .main-header .main_menu{padding-bottom:2rem}
+header .main-header .main_menu ul{display:-webkit-box;display:-ms-flexbox;display:flex;margin:0;padding:0}
+header .main-header .main_menu ul li{list-style:none;margin-left:2rem;padding-bottom:.5rem}
+header .main-header .main_menu ul li.current-menu-item{border-bottom:2px solid #4f5250}
+header .main-header .main_menu ul li:hover{font-weight:bold}
+header .main-header .main_menu ul li a{text-decoration:none;color:#4f5250}
+.menu-show header .main-header .main_menu{-webkit-transform:translateX(0);transform:translateX(0);-webkit-transition:all .3s ease;transition:all .3s ease}
+header .main-header .overlay{position:fixed;left:0;width:3rem;top:0;bottom:0;display:none;opacity:0}
+.menu-show header .main-header .overlay{display:block}
+header .sub-header{padding:.5rem 0;border-bottom:1px solid #d7d5cb;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}
+header .sub-header .social-menu{list-style:none;display:-webkit-box;display:-ms-flexbox;display:flex;margin:0;padding:0;margin-left:2rem}
+header .sub-header .social-menu li{margin-left:.5rem}
+header .sub-header .social-menu li a img{height:1rem;width:auto}
+header .sub-header .sub_menu ul{display:-webkit-box;display:-ms-flexbox;display:flex;margin:0;padding:0}
+header .sub-header .sub_menu ul li{list-style:none;margin-left:1rem;padding-bottom:.5rem}
+header .sub-header .sub_menu ul li.current-menu-item{text-decoration:underline}
+header .sub-header .sub_menu ul li:hover{font-weight:bold}
+header .sub-header .sub_menu ul li a{text-decoration:none;color:#4f5250;font-size:.75rem}
+footer{background:#d7d5cb}
+footer>div{max-width:1200px;width:100%;margin:0 auto;padding:0 1rem}
+footer .footer-upper{position:relative;padding:1rem 1rem;display:-webkit-box;display:-ms-flexbox;display:flex}
+footer .footer-upper:after{width:100%;position:absolute;bottom:0;content:"";display:block;border-bottom:1px solid #4f5250}
+footer .footer-upper .footer_menu ul{display:-webkit-box;display:-ms-flexbox;display:flex;margin:0;padding:0}
+footer .footer-upper .footer_menu ul li{list-style:none;margin-right:1rem}
+footer .footer-upper .footer_menu ul li a{text-decoration:none;color:#4f5250;font-size:.75rem}
+footer .footer-upper .social-menu{list-style:none;display:-webkit-box;display:-ms-flexbox;display:flex;margin:0;padding:0;margin-right:2rem}
+footer .footer-upper .social-menu li{margin-right:.5rem}
+footer .footer-upper .social-menu li a img{height:1rem;width:auto}
+footer .footer-lower{text-align:center;padding:1rem}
+.row-text{max-width:1200px;width:100%;margin:0 auto;padding:0 1rem;padding:6rem 1rem}
+.row-text p{line-height:2}
+.row-text img{max-width:100%;height:auto}
+.row-video{position:relative;height:70vh;width:auto;overflow:hidden;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;padding-left:100px;padding-bottom:100px}
+.row-video:after{content:"";background:#4f5250;opacity:.4;position:absolute;height:100%;width:100%;z-index:11;top:0;left:0}
+.row-video video{z-index:10;min-width:100%;min-height:100%;position:absolute;top:50%;left:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%)}
+.row-video h2{max-width:600px;z-index:12;color:#fff}
+.row-startbild{position:relative;height:70vh;width:auto;overflow:hidden;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;padding-left:100px;padding-bottom:100px;background-size:cover;background-position:center}
+.row-startbild:after{content:"";background:#4f5250;opacity:.4;position:absolute;height:100%;width:100%;z-index:11;top:0;left:0}
+.row-startbild h2{max-width:600px;z-index:12;color:#fff}
+.row-block{display:grid;grid-template-columns:1fr 1fr}
+.row-block.row-block-align-bild_rechts .content{grid-row:1;grid-column:1}
+.row-block .bild{position:relative}
+.row-block .bild img{position:absolute;-o-object-fit:cover;object-fit:cover;width:100%;height:100%}
+.row-block .content{padding:6rem 5vw}
+.row-block .content .text{line-height:2}
+.row-block .content .link{margin-top:2rem;border-width:1px;border-color:#4f5250;border-style:solid;display:inline-block;padding:.5rem 1rem;text-decoration:none;color:#4f5250;font-family:"Kaisei Tokumin",sans-serif;-webkit-transition:all .3s ease;transition:all .3s ease}
+.row-block .content .link:hover{-webkit-transition:all .3s ease;transition:all .3s ease}
+.row-block .content .link:hover{background:#4f5250;color:#d7d5cb}
+.row-block.row-block-theme-beige{background:#d7d5cb}
+.row-block.row-block-theme-dunkel{background:#4f5250}
+.row-block.row-block-theme-dunkel .content{color:#d7d5cb}
+.row-block.row-block-theme-dunkel .content a{color:#d7d5cb;border-color:#d7d5cb}
+.row-block.row-block-theme-dunkel .content a:hover{background:#d7d5cb;color:#4f5250}
+.row-bildtext{background-size:cover;background-position:center;padding-top:4rem}
+.row-bildtext .content{max-width:1200px;width:100%;margin:0 auto;padding:0 1rem;padding:4rem 1rem}
+.row-bildtext .content .text{line-height:2}
+.row-bildtext .content .link{margin-top:2rem;border-width:1px;border-color:#4f5250;border-style:solid;display:inline-block;padding:.5rem 1rem;text-decoration:none;color:#4f5250;font-family:"Kaisei Tokumin",sans-serif;-webkit-transition:all .3s ease;transition:all .3s ease}
+.row-bildtext .content .link:hover{-webkit-transition:all .3s ease;transition:all .3s ease}
+.row-bildtext .content .link:hover{background:#4f5250;color:#d7d5cb}
+.row-bildtext.row-bildtext-theme-negativ{position:relative;color:#fff}
+.row-bildtext.row-bildtext-theme-negativ .content{position:relative;z-index:2}
+.row-bildtext.row-bildtext-theme-negativ .link{color:#fff;border-color:#fff}
+.row-bildtext.row-bildtext-theme-negativ .link:hover{background:#fff;color:#4f5250}
+.row-bildtext.row-bildtext-theme-negativ:after{z-index:1;content:"";background-color:#4f5250;opacity:.4;position:absolute;top:0;left:0;width:100%;height:100%}
+.row-iconliste{max-width:1200px;width:100%;margin:0 auto;padding:0 1rem;padding:6rem 1rem}
+.row-iconliste p{line-height:2}
+.row-iconliste .icon-row{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-top:2rem}
+.row-iconliste .icon-row img{max-width:6rem;height:auto;margin-right:2rem}
+.row-iconliste .icon-row .icon-headline{font-weight:bold}
+.row-iconliste .icon-row p{margin:0}
+.row-news{max-width:1200px;width:100%;margin:0 auto;padding:0 1rem;padding:6rem 1rem}
+.row-news .grid{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:4rem}
+.row-news .grid .post{text-align:center;line-height:2}
+.row-news .grid .post figure{margin:0;position:relative;padding-bottom:100%;display:block}
+.row-news .grid .post figure img{left:0;position:absolute;-o-object-fit:cover;object-fit:cover;width:100%;height:100%}
+.row-news .grid .post h3{margin-bottom:0;text-transform:uppercase}
+.row-news .grid .post .link{margin-top:2rem;border-width:1px;border-color:#4f5250;border-style:solid;display:inline-block;padding:.5rem 1rem;text-decoration:none;color:#4f5250;font-family:"Kaisei Tokumin",sans-serif;-webkit-transition:all .3s ease;transition:all .3s ease}
+.row-news .grid .post .link:hover{-webkit-transition:all .3s ease;transition:all .3s ease}
+.row-news .grid .post .link:hover{background:#4f5250;color:#d7d5cb}
+.row-hero{min-height:50vh;position:relative;background-size:cover;background-position:center;color:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;padding-bottom:4rem;padding-left:4rem}
+.row-hero:after{content:"";position:absolute;height:100%;width:100%;top:0;left:0;background:#4f5250;opacity:.4;z-index:1}
+.row-hero h2{z-index:2;position:relative}
+.row-sortiment{max-width:1200px;width:100%;margin:0 auto;padding:0 1rem;padding:6rem 1rem}
+.row-sortiment h2{text-align:center}
+.row-sortiment .grid{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:2rem;text-align:center}
+.row-sortiment .grid h3{text-decoration:none;margin-bottom:1rem;border-bottom:1px solid #4f5250;padding-bottom:1rem;display:inline-block}
+.row-sortiment .grid ul{margin:0;padding:0}
+.row-sortiment .grid ul li{list-style:none}
+.hannelise-template-archive{max-width:1200px;width:100%;margin:0 auto;padding:0 1rem;padding:6rem 1rem}
+.hannelise-template-archive h1{margin-bottom:4rem}
+.hannelise-template-archive .grid{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:4rem}
+.hannelise-template-archive .grid .post{text-align:center;line-height:2}
+.hannelise-template-archive .grid .post figure{margin:0;position:relative;padding-bottom:100%;display:block}
+.hannelise-template-archive .grid .post figure img{left:0;position:absolute;-o-object-fit:cover;object-fit:cover;width:100%;height:100%}
+.hannelise-template-archive .grid .post h3{margin-bottom:0;text-transform:uppercase}
+.hannelise-template-archive .grid .post .link{margin-top:2rem;border-width:1px;border-color:#4f5250;border-style:solid;display:inline-block;padding:.5rem 1rem;text-decoration:none;color:#4f5250;font-family:"Kaisei Tokumin",sans-serif;-webkit-transition:all .3s ease;transition:all .3s ease}
+.hannelise-template-archive .grid .post .link:hover{-webkit-transition:all .3s ease;transition:all .3s ease}
+.hannelise-template-archive .grid .post .link:hover{background:#4f5250;color:#d7d5cb}
+.hannelise-template-single{max-width:1200px;width:100%;margin:0 auto;padding:0 1rem;padding:6rem 1rem;padding-top:0}
+.hannelise-template-single h1{margin-bottom:2rem}
+.hannelise-template-single .post{text-align:left;line-height:2}
+.hannelise-template-single .post .content{padding-left:4rem;padding-right:4rem}
+.hannelise-template-single .post figure{margin:0;position:relative;height:500px;display:block;margin-bottom:2rem;-o-object-position:center;object-position:center}
+.hannelise-template-single .post figure img{left:0;-o-object-position:center;object-position:center;position:absolute;-o-object-fit:cover;object-fit:cover;width:100%;height:100%}
+@media(max-width:675px){h1,h2{font-size:1.5rem}
+header .main-header{-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+header .main-header .logo{height:45px}
+header .main-header .hamburger{display:block}
+.menu-show header .main-header .hamburger{position:absolute;z-index:99;right:1rem;top:1rem}
+.menu-show header .main-header .hamburger .line{background:#d7d5cb}
+header .main-header .main_menu{position:fixed;top:0;right:0;left:3rem;bottom:0;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background:#4f5250;display:-webkit-box;display:-ms-flexbox;display:flex;position:fixed;-webkit-transition:all .3s ease;transition:all .3s ease;-webkit-transform:translateX(100%);transform:translateX(100%);z-index:99}
+header .main-header .main_menu ul{display:block}
+header .main-header .main_menu ul li{margin-bottom:1rem}
+header .main-header .main_menu ul li.current-menu-item{border-bottom:2px solid #d7d5cb}
+header .main-header .main_menu ul li a{color:#d7d5cb}
+header .sub-header{display:none}
+footer .footer-upper .footer_menu ul{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+footer .footer-upper .footer_menu ul li{margin-left:1rem}
+footer .footer-upper{display:block}
+footer .footer-upper .social-menu{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-bottom:1rem;margin-right:0}
+footer .footer-lower{font-size:12px}
+.row-text{padding:2rem 1rem}
+.row-video{padding:2rem 1rem}
+.row-startbild{padding:2rem 1rem}
+.row-block{grid-template-columns:1fr}
+.row-block .bild{grid-row:1;grid-column:1;height:40vh}
+.row-block .content{grid-row:2 !important}
+.row-iconliste{padding:2rem 1rem}
+.row-iconliste .icon-row{display:block;text-align:center}
+.row-iconliste .icon-row img{margin-right:0;margin-bottom:1rem}
+.row-news .grid{grid-template-columns:1fr}
+.row-hero{padding-bottom:2rem;padding-left:2rem}
+.row-sortiment .grid{grid-template-columns:1fr}
+.hannelise-template-archive .grid{grid-template-columns:1fr}
+.hannelise-template-single .post .content{padding:1rem 0}
+.hannelise-template-single .post figure{height:30vh}
+}
