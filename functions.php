@@ -8,6 +8,8 @@
             add_action('wp_enqueue_scripts', array($this, 'load_assets'));
             add_action('after_setup_theme', array($this, 'register_menus'),0);
             add_action('init', array($this, 'theme_support'),0);
+            add_filter('acf/settings/save_json', array($this, 'save_json'));
+            add_filter('acf/settings/load_json', array($this, 'load_json'));
 
         }
 
@@ -35,5 +37,17 @@
         public function theme_support() {
             add_theme_support( 'post-thumbnails' );
         }
+
+        public function save_json( $path ) {
+            $path = get_stylesheet_directory() . '/fields';
+            return $path;
+        }
+
+        public function load_json($paths) {
+            unset($paths[0]);
+            $paths[] = get_stylesheet_directory() . '/json';
+            return $paths;
+        }
+         
     }  
     new HanneLise_Theme();
