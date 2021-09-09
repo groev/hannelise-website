@@ -1,7 +1,6 @@
-jQuery(function($){
-    $(".hamburger, .overlay").click(function(){
-        $('body').toggleClass("menu-show");
-    });
-
- 
+jQuery(function ($) {
+	$(".hamburger, .overlay").click(function () {
+		$("body").toggleClass("menu-show");
+	});
+	ScrollReveal().reveal(".row > *", { reset: true });
 });
