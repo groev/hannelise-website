@@ -44,7 +44,7 @@
 
         public function load_json($paths) {
             unset($paths[0]);
-            $paths[] = get_stylesheet_directory() . '/json';
+            $paths[] = get_stylesheet_directory() . '/fields';
             return $paths;
         }
          
