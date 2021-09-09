@@ -75,6 +75,11 @@ h2 {
 	overflow: hidden;
 }
 
+.aligncenter {
+	display: block;
+	margin: 0 auto;
+}
+
 header {
 	@include wrapped;
 
