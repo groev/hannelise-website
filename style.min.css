@@ -107,6 +107,8 @@ footer .footer-lower{text-align:center;padding:1rem}
 .row-sortiment .grid h3{text-decoration:none;margin-bottom:1rem;border-bottom:1px solid #4f5250;padding-bottom:1rem;display:inline-block}
 .row-sortiment .grid ul{margin:0;padding:0}
 .row-sortiment .grid ul li{list-style:none}
+.row-bild{position:relative;margin:0;display:block}
+.row-bild img{left:0;position:absolute;-o-object-fit:cover;object-fit:cover;width:100%;height:100%}
 .hannelise-template-archive{max-width:1200px;width:100%;margin:0 auto;padding:0 1rem;padding:6rem 1rem}
 .hannelise-template-archive h1{margin-bottom:4rem}
 .hannelise-template-archive .grid{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:4rem}
