@@ -78,6 +78,7 @@ footer .footer-lower{text-align:center;padding:1rem}
 .row-bildtext .content .link{margin-top:2rem;border-width:1px;border-color:#4f5250;border-style:solid;display:inline-block;padding:.5rem 1rem;text-decoration:none;color:#4f5250;font-family:"Kaisei Tokumin",sans-serif;-webkit-transition:all .3s ease;transition:all .3s ease}
 .row-bildtext .content .link:hover{-webkit-transition:all .3s ease;transition:all .3s ease}
 .row-bildtext .content .link:hover{background:#4f5250;color:#d7d5cb}
+.row-bildtext img{max-width:100%;height:auto}
 .row-bildtext.row-bildtext-theme-negativ{position:relative;color:#fff}
 .row-bildtext.row-bildtext-theme-negativ .content{position:relative;z-index:2}
 .row-bildtext.row-bildtext-theme-negativ .link{color:#fff;border-color:#fff}

@@ -491,6 +491,10 @@ footer {
 			@include button;
 		}
 	}
+	img {
+		max-width: 100%;
+		height: auto;
+	}
 	&.row-bildtext-theme-negativ {
 		position: relative;
 		color: #fff;
