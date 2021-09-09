@@ -10,7 +10,6 @@
             add_action('init', array($this, 'theme_support'),0);
             add_filter('acf/settings/save_json', array($this, 'save_json'));
             add_filter('acf/settings/load_json', array($this, 'load_json'));
-
         }
 
         public function load_inc() {
