@@ -8,11 +8,12 @@
     </head>
     <body>
         <div class="page-wrap">
-            <header>
+            <header id="header">
                 <div class="sub-header">
                     <?php wp_nav_menu(array('theme_location' => 'sub_menu', 'container' => 'nav', 'container_class' => 'sub_menu'));?>
                     <?php echo get_template_part('parts/social_menu');?>
                 </div>
+                <div class="line"></div>
                 <div class="main-header">
                     <a rel="home" href="/"><img class="logo" src="<?php the_field('logo', 'option');?>" alt="Hannelise Logo" /></a>
                     <?php wp_nav_menu(array('theme_location' => 'main_menu', 'container' => 'nav', 'container_class' => 'main_menu'));?>
