@@ -1021,8 +1021,9 @@ footer {
 
 @media (max-width: $mobile) {
 	.dataTables_filter {
-		float: left !important;
+		float: none !important;
 	}
+
 	.row-text .dataTables_wrapper .tablepress {
 		margin-top: 2rem !important;
 		margin-bottom: 1rem !important;
