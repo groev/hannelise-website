@@ -9,7 +9,7 @@
                 <div class="content">
                 <div class="date"><?php echo get_the_date('d.m.Y');?></div>
 <h1><?php the_title();?></h1>
-                <section><?php echo $post->post_content;?></section>
+                <section><?php the_content();?></section>
 </div>
             </article>
 
