@@ -215,4 +215,5 @@ footer .footer-lower{font-size:12px}
 .row-kontakt .grid{grid-template-columns:1fr}
 .dataTables_filter{float:left !important}
 .row-text .dataTables_wrapper .tablepress{margin-top:4rem !important;margin-bottom:2rem !important;border:1px solid #ccc !important}
+.dataTables_length{float:none !important}
 }
