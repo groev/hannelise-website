@@ -4,7 +4,7 @@
                  
 <article class="post">
                 <figure>
-                    <img src="<?php echo get_the_post_thumbnail_url( $post->ID, 'large' );?>" />
+                    <img src="<?php echo get_the_post_thumbnail_url( $post->ID, 'full' );?>" />
                 </figure>
                 <div class="content">
                 <div class="date"><?php echo get_the_date('d.m.Y');?></div>
