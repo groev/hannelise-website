@@ -587,6 +587,25 @@
                                     "maxlength": ""
                                 }
                             ]
+                        },
+                        {
+                            "key": "field_615b4b1522a47",
+                            "label": "Text unten",
+                            "name": "text_unten",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
                         }
                     ],
                     "min": "",
@@ -1053,5 +1072,5 @@
     ],
     "active": true,
     "description": "",
-    "modified": 1633371583
+    "modified": 1633372962
 }

@@ -13,4 +13,9 @@
             </div>
         </div>
     <?php endforeach;endif; ?>
+    <?php if($row['text_unten']) {?>
+        <div class="text-unten">
+            <?php echo $row['text_unten'];?>
+        </div>    
+    <?php } ?>
 </div>

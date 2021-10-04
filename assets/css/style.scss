@@ -641,6 +641,13 @@ footer {
 	@media (max-width: $mobile) {
 		padding: 2rem 1rem;
 	}
+
+	ul {
+		line-height: 2;
+	}
+	.text-unten {
+		margin-top: 4rem;
+	}
 	.icon-row {
 		display: flex;
 		align-items: center;
