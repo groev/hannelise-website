@@ -3,7 +3,7 @@
         <?php wp_head();?>
         <link  rel="shortcut icon" href="<?php the_field('favicon', 'option');?>" type="image/png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <?php if(get_field('seo_title')) {?>
+        <?php if(get_field('seo_titel')) {?>
             <title><?php the_field('seo_titel');?></title>
         <?php } else { ?>
             <title><?php echo get_bloginfo('name') ?> - <?php the_title();?></title>
