@@ -215,6 +215,6 @@ footer .footer-lower{font-size:12px}
 .hannelise-template-single .post figure{height:30vh}
 .row-kontakt .grid{grid-template-columns:1fr}
 .dataTables_filter{float:left !important}
-.row-text .dataTables_wrapper .tablepress{margin-top:2rem !important;margin-bottom:1rem !important;border:1px solid #ccc !important}
+.row-text .dataTables_wrapper .tablepress{margin-top:1rem !important;margin-bottom:1rem !important;border:1px solid #ccc !important}
 .dataTables_length{float:none !important}
 }
