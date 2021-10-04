@@ -75,7 +75,7 @@ footer .footer-lower{text-align:center;padding:1rem}
 .row-startbild.positiv:after{opacity:0}
 .row-startbild h2{max-width:1200px;width:100%;margin:0 auto;padding:0 1rem;padding-right:500px;z-index:12;color:#fff}
 .row-startbild.positiv h2{color:#4f5250}
-.row-block{padding:6rem 0}
+.row-block{padding:4rem 0}
 .row-block .inner{max-width:1200px;width:100%;margin:0 auto;padding:0 1rem;display:grid;grid-template-columns:4fr 6fr;grid-gap:6rem}
 .row-block.row-block-align-bild_rechts .inner{grid-template-columns:6fr 4fr}
 .row-block.row-block-align-bild_rechts .content{grid-row:1;grid-column:1}
@@ -158,7 +158,7 @@ footer .footer-lower{text-align:center;padding:1rem}
 .hannelise-template-single .post .content{padding-left:4rem;padding-right:4rem}
 .hannelise-template-single .post figure{margin:0;position:relative;height:500px;display:block;margin-bottom:2rem;-o-object-position:center;object-position:center}
 .hannelise-template-single .post figure img{left:0;-o-object-position:center;object-position:center;position:absolute;-o-object-fit:cover;object-fit:cover;width:100%;height:100%}
-.row-kontakt{background:#d7d5cb;padding:6rem 0}
+.row-kontakt{background:#d7d5cb;padding:4rem 0}
 .row-kontakt h2{max-width:1200px;width:100%;margin:0 auto;padding:0 1rem;margin-bottom:2rem}
 .row-kontakt .content p{line-height:2}
 .row-kontakt .grid{max-width:1200px;width:100%;margin:0 auto;padding:0 1rem;display:grid;grid-template-columns:1fr 1fr;grid-gap:2rem}
