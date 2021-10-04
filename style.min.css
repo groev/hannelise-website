@@ -213,4 +213,5 @@ footer .footer-lower{font-size:12px}
 .hannelise-template-single .post .content{padding:1rem 0}
 .hannelise-template-single .post figure{height:30vh}
 .row-kontakt .grid{grid-template-columns:1fr}
+.dataTables_filter{float:left !important}
 }
