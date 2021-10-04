@@ -1015,6 +1015,10 @@ footer {
 	border: 1px solid #ccc !important;
 }
 
+.dataTables_length {
+	margin-bottom: 2rem !important;
+}
+
 @media (max-width: $mobile) {
 	.dataTables_filter {
 		float: left !important;
