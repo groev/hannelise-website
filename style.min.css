@@ -171,10 +171,10 @@ footer .footer-lower{text-align:center;padding:1rem}
 .row-map iframe{height:50vh;width:100%;border:0}
 .wpcf7-response-output{border:0 !important;padding:0 !important;margin:0 !important;font-weight:bold !important}
 .tablepress tfoot th,.tablepress thead th{background-color:#4f5250 !important;color:#d7d5cb}
-.paginate_button:after,.paginate_button:before{color:#4f5250}
+.paginate_button:after,.paginate_button:before{color:#4f5250 !important}
 .tablepress .odd td{background-color:#fff !important}
 .row-text .dataTables_wrapper .tablepress{margin-top:2rem !important;margin-bottom:2rem !important;border:1px solid #ccc !important}
-.dataTables_length{margin-bottom:2rem !important}
+.dataTables_length{margin-bottom:1rem !important}
 @media(max-width:1024px){h1,h2{font-size:2rem}
 }@media(max-width:675px){h1,h2{font-size:1.5rem}
 header .main-header{-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-right:1rem}
@@ -215,6 +215,6 @@ footer .footer-lower{font-size:12px}
 .hannelise-template-single .post figure{height:30vh}
 .row-kontakt .grid{grid-template-columns:1fr}
 .dataTables_filter{float:left !important}
-.row-text .dataTables_wrapper .tablepress{margin-top:4rem !important;margin-bottom:2rem !important;border:1px solid #ccc !important}
+.row-text .dataTables_wrapper .tablepress{margin-top:2rem !important;margin-bottom:1rem !important;border:1px solid #ccc !important}
 .dataTables_length{float:none !important}
 }

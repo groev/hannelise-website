@@ -1002,7 +1002,7 @@ footer {
 
 .paginate_button:after,
 .paginate_button:before {
-	color: $dark;
+	color: $dark !important;
 }
 
 .tablepress .odd td {
@@ -1016,7 +1016,7 @@ footer {
 }
 
 .dataTables_length {
-	margin-bottom: 2rem !important;
+	margin-bottom: 1rem !important;
 }
 
 @media (max-width: $mobile) {
@@ -1024,8 +1024,8 @@ footer {
 		float: left !important;
 	}
 	.row-text .dataTables_wrapper .tablepress {
-		margin-top: 4rem !important;
-		margin-bottom: 2rem !important;
+		margin-top: 2rem !important;
+		margin-bottom: 1rem !important;
 		border: 1px solid #ccc !important;
 	}
 	.dataTables_length {
