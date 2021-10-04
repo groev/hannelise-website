@@ -325,16 +325,16 @@ footer {
 	> div {
 		@include wrapped;
 	}
+	hr {
+		height: 1px;
+		border-top: 0px;
+		border-bottom: 1px solid $dark;
+		opacity: 0.5;
+		margin: 0;
+	}
 	.footer-upper {
 		position: relative;
-		&:after {
-			width: 100%;
-			position: absolute;
-			bottom: 0;
-			content: "";
-			display: block;
-			border-bottom: 1px solid $dark;
-		}
+
 		padding: 1rem 1rem;
 		display: flex;
 
@@ -399,7 +399,7 @@ footer {
 
 .row-text {
 	@include wrapped;
-	padding: 6rem 6rem;
+	padding: 4rem 6rem;
 	p {
 		line-height: 2;
 	}
@@ -482,6 +482,9 @@ footer {
 		top: 0;
 		left: 0;
 	}
+	&.positiv:after {
+		opacity: 0;
+	}
 
 	h2 {
 		@include wrapped;
@@ -491,6 +494,9 @@ footer {
 		@media (max-width: $mobile) {
 			padding: 0;
 		}
+	}
+	&.positiv h2 {
+		color: $dark;
 	}
 	@media (max-width: $mobile) {
 		padding: 2rem 1rem;
@@ -625,7 +631,7 @@ footer {
 
 .row-iconliste {
 	@include wrapped;
-	padding: 6rem 6rem;
+	padding: 4rem 6rem;
 	p {
 		line-height: 2;
 	}
@@ -660,7 +666,11 @@ footer {
 
 .row-news {
 	@include wrapped;
-	padding: 6rem 1rem;
+	padding: 4rem 1rem;
+	h2 {
+		text-align: center;
+		margin-bottom: 4rem;
+	}
 	.grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -699,7 +709,7 @@ footer {
 
 .row-raster {
 	@include wrapped;
-	padding: 6rem 1rem;
+	padding: 4rem 1rem;
 	.headline {
 		margin-bottom: 4rem;
 		display: block;
@@ -766,15 +776,21 @@ footer {
 		opacity: 0.4;
 		z-index: 1;
 	}
+	&.positiv:after {
+		opacity: 0;
+	}
 	h2 {
 		z-index: 2;
 		position: relative;
+	}
+	&.positiv h2 {
+		color: $dark;
 	}
 }
 
 .row-sortiment {
 	@include wrapped;
-	padding: 6rem 1rem;
+	padding: 4rem 1rem;
 	h2 {
 		text-align: center;
 	}
@@ -824,7 +840,7 @@ footer {
 
 .hannelise-template-archive {
 	@include wrapped;
-	padding: 6rem 1rem;
+	padding: 4rem 1rem;
 	h1 {
 		margin-bottom: 4rem;
 		display: block;
@@ -868,7 +884,7 @@ footer {
 
 .hannelise-template-single {
 	@include wrapped;
-	padding: 6rem 1rem;
+	padding: 4rem 1rem;
 	padding-top: 0;
 	h1 {
 		margin-bottom: 2rem;
@@ -914,6 +930,11 @@ footer {
 		@include wrapped;
 		margin-bottom: 2rem;
 	}
+	.content {
+		p {
+			line-height: 2;
+		}
+	}
 	.grid {
 		@include wrapped;
 		display: grid;
@@ -945,5 +966,13 @@ footer {
 			font-size: 0.75rem;
 			display: block;
 		}
+	}
+}
+
+.row-map {
+	iframe {
+		height: 50vh;
+		width: 100%;
+		border: 0px;
 	}
 }

@@ -141,6 +141,31 @@
                             "toolbar": "full",
                             "media_upload": 1,
                             "delay": 0
+                        },
+                        {
+                            "key": "field_615b4576f9725",
+                            "label": "Theme",
+                            "name": "theme",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "negativ": "Negativ",
+                                "positiv": "Positiv"
+                            },
+                            "default_value": false,
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "return_format": "value",
+                            "ajax": 0,
+                            "placeholder": ""
                         }
                     ],
                     "min": "",
@@ -644,6 +669,31 @@
                             "prepend": "",
                             "append": "",
                             "maxlength": ""
+                        },
+                        {
+                            "key": "field_615b455bf9724",
+                            "label": "Theme",
+                            "name": "theme",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "negativ": "Negativ",
+                                "positiv": "Positiv"
+                            },
+                            "default_value": false,
+                            "allow_null": 0,
+                            "multiple": 0,
+                            "ui": 0,
+                            "return_format": "value",
+                            "ajax": 0,
+                            "placeholder": ""
                         }
                     ],
                     "min": "",
@@ -948,6 +998,35 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_615b422a43db1": {
+                    "key": "layout_615b422a43db1",
+                    "name": "map",
+                    "label": "Karte",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_615b422f43db2",
+                            "label": "Iframe",
+                            "name": "iframe",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "new_lines": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Eintrag hinzufügen",
@@ -974,5 +1053,5 @@
     ],
     "active": true,
     "description": "",
-    "modified": 1631993605
+    "modified": 1633371583
 }
