@@ -170,7 +170,7 @@ footer .footer-lower{text-align:center;padding:1rem}
 .row-kontakt .grid label{font-size:.75rem;display:block}
 .row-map iframe{height:50vh;width:100%;border:0}
 .wpcf7-response-output{border:0 !important;padding:0 !important;margin:0 !important;font-weight:bold !important}
-.tablepress tfoot th,.tablepress thead th{background:#4f5250;color:#d7d5cb}
+.tablepress tfoot th,.tablepress thead th{background-color:#4f5250 !important;color:#d7d5cb}
 @media(max-width:1024px){h1,h2{font-size:2rem}
 }@media(max-width:675px){h1,h2{font-size:1.5rem}
 header .main-header{-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-right:1rem}

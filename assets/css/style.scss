@@ -996,6 +996,6 @@ footer {
 
 .tablepress tfoot th,
 .tablepress thead th {
-	background: $dark;
+	background-color: $dark !important;
 	color: $light;
 }
