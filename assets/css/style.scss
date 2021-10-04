@@ -993,3 +993,9 @@ footer {
 	margin: 0 !important;
 	font-weight: bold !important;
 }
+
+.tablepress tfoot th,
+.tablepress thead th {
+	background: $dark;
+	color: $light;
+}
