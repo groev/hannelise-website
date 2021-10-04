@@ -173,7 +173,7 @@ footer .footer-lower{text-align:center;padding:1rem}
 .tablepress tfoot th,.tablepress thead th{background-color:#4f5250 !important;color:#d7d5cb}
 .paginate_button:after,.paginate_button:before{color:#4f5250 !important}
 .tablepress .odd td{background-color:#fff !important}
-.row-text .dataTables_wrapper .tablepress{margin-top:2rem !important;margin-bottom:2rem !important;border:1px solid #ccc !important}
+.row-text .dataTables_wrapper .tablepress{margin-top:1rem !important;margin-bottom:1rem !important;border:1px solid #ccc !important}
 .dataTables_length{margin-bottom:1rem !important}
 @media(max-width:1024px){h1,h2{font-size:2rem}
 }@media(max-width:675px){h1,h2{font-size:1.5rem}
