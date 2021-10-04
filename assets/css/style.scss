@@ -999,3 +999,16 @@ footer {
 	background-color: $dark !important;
 	color: $light;
 }
+
+.paginate_button:after,
+.paginate_button:before {
+	color: $dark;
+}
+
+.tablepress .odd td {
+	background-color: #fff !important;
+}
+
+.tablepress {
+	border: 1px solid #ccc;
+}
