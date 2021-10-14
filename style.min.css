@@ -175,6 +175,7 @@ footer .footer-lower{text-align:center;padding:1rem}
 .tablepress .odd td{background-color:#fff !important}
 .row-text .dataTables_wrapper .tablepress{margin-top:1rem !important;margin-bottom:1rem !important;border:1px solid #ccc !important}
 .dataTables_length{margin-bottom:1rem !important}
+.column-filter-widget .widget-0{margin:0}
 body .column-filter-widget{float:right}
 @media(max-width:1024px){h1,h2{font-size:2rem}
 }@media(max-width:675px){h1,h2{font-size:1.5rem}
