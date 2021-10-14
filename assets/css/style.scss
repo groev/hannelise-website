@@ -1041,7 +1041,7 @@ footer {
 
 body .column-filter-widget {
 	float: right;
-	@media (max-width: $mobil) {
+	@media (max-width: $mobile) {
 		float: left;
 	}
 }
