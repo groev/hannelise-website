@@ -1046,6 +1046,62 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_617d737a72af3": {
+                    "key": "layout_617d737a72af3",
+                    "name": "galerie",
+                    "label": "Galerie",
+                    "display": "row",
+                    "sub_fields": [
+                        {
+                            "key": "field_617d738772af4",
+                            "label": "Headline",
+                            "name": "headline",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_617d738c72af5",
+                            "label": "Bilder",
+                            "name": "bilder",
+                            "type": "gallery",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "insert": "append",
+                            "library": "all",
+                            "min": "",
+                            "max": "",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Eintrag hinzufügen",
@@ -1072,5 +1128,5 @@
     ],
     "active": true,
     "description": "",
-    "modified": 1633372962
+    "modified": 1635611546
 }

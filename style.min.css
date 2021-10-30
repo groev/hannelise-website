@@ -177,6 +177,12 @@ footer .footer-lower{text-align:center;padding:1rem}
 .dataTables_length{margin-bottom:1rem !important}
 .column-filter-widget .widget-0{margin:0}
 body .column-filter-widget{float:right}
+.row-galerie{max-width:1200px;width:100%;margin:0 auto;padding:0 1rem;padding:4rem 0}
+.row-galerie h2{text-align:center}
+.row-galerie .galerie{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:2rem}
+.row-galerie .galerie a{padding-bottom:100%;position:relative}
+.row-galerie .galerie a img{height:100%;width:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:center;object-position:center;position:absolute}
+.featherlight-next span,.featherlight-previous span{font-size:40px !important}
 @media(max-width:1024px){h1,h2{font-size:2rem}
 }@media(max-width:768px){h1,h2{font-size:1.5rem}
 header .main-header{-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-right:1rem}
@@ -197,6 +203,7 @@ footer .footer-upper{display:block}
 footer .footer-upper .social-menu{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-bottom:1rem;margin-right:0}
 footer .footer-lower{font-size:12px}
 .row-text{padding:2rem 1rem}
+.row-video{height:50vh}
 .row-video h2{padding:0}
 .row-video{padding:2rem 1rem}
 .row-startbild h2{padding:0}
@@ -220,4 +227,5 @@ footer .footer-lower{font-size:12px}
 .row-text .dataTables_wrapper .tablepress{margin-top:2rem !important;margin-bottom:1rem !important;border:1px solid #ccc !important}
 .dataTables_length{float:none !important}
 body .column-filter-widget{float:left}
+.row-galerie .galerie{grid-template-columns:1fr}
 }

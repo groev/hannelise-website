@@ -425,6 +425,9 @@ footer {
 	align-items: flex-end;
 	padding-left: 100px;
 	padding-bottom: 100px;
+	@media (max-width: $mobile) {
+		height: 50vh;
+	}
 	&:after {
 		content: "";
 		background: $dark;
@@ -1044,4 +1047,37 @@ body .column-filter-widget {
 	@media (max-width: $mobile) {
 		float: left;
 	}
+}
+
+.row-galerie {
+	@include wrapped;
+	padding: 4rem 0;
+	h2 {
+		text-align: center;
+	}
+	.galerie {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 2rem;
+		@media (max-width: $mobile) {
+			grid-template-columns: 1fr;
+		}
+		a {
+			padding-bottom: 100%;
+
+			position: relative;
+			img {
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+				object-position: center;
+				position: absolute;
+			}
+		}
+	}
+}
+
+.featherlight-next span,
+.featherlight-previous span {
+	font-size: 40px !important;
 }
