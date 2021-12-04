@@ -1081,3 +1081,41 @@ body .column-filter-widget {
 .featherlight-previous span {
 	font-size: 40px !important;
 }
+
+.row.row-logos {
+	@include wrapped;
+	padding: 6rem 0;
+	h2 {
+		text-align: center;
+	}
+	.logo-slider {
+		padding: 2rem 0;
+		a {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: auto;
+			img {
+				height: 150px;
+				width: 150px;
+				object-fit: contain;
+			}
+		}
+	}
+	.slick-prev:before {
+		content: "🡠";
+		color: $dark;
+	}
+	.slick-next:before {
+		color: $dark;
+		content: "🡢";
+	}
+	@media (max-width: $mobile) {
+		.slick-next {
+			right: 10px;
+		}
+		.slick-prev {
+			left: 10px;
+		}
+	}
+}

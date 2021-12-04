@@ -183,6 +183,13 @@ body .column-filter-widget{float:right}
 .row-galerie .galerie a{padding-bottom:100%;position:relative}
 .row-galerie .galerie a img{height:100%;width:100%;-o-object-fit:cover;object-fit:cover;-o-object-position:center;object-position:center;position:absolute}
 .featherlight-next span,.featherlight-previous span{font-size:40px !important}
+.row.row-logos{max-width:1200px;width:100%;margin:0 auto;padding:0 1rem;padding:6rem 0}
+.row.row-logos h2{text-align:center}
+.row.row-logos .logo-slider{padding:2rem 0}
+.row.row-logos .logo-slider a{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:auto}
+.row.row-logos .logo-slider a img{height:150px;width:150px;-o-object-fit:contain;object-fit:contain}
+.row.row-logos .slick-prev:before{content:"🡠";color:#4f5250}
+.row.row-logos .slick-next:before{color:#4f5250;content:"🡢"}
 @media(max-width:1024px){h1,h2{font-size:2rem}
 }@media(max-width:768px){h1,h2{font-size:1.5rem}
 header .main-header{-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding-right:1rem}
@@ -228,4 +235,6 @@ footer .footer-lower{font-size:12px}
 .dataTables_length{float:none !important}
 body .column-filter-widget{float:left}
 .row-galerie .galerie{grid-template-columns:1fr}
+.row.row-logos .slick-next{right:10px}
+.row.row-logos .slick-prev{left:10px}
 }
