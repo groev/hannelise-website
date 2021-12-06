@@ -7,7 +7,7 @@
         <?php if($posts):foreach($posts as $post):?>
             <div class="post">
                 <figure>
-                    <img src="<?php echo get_the_post_thumbnail_url( $post->ID, 'large' );?>" />
+                    <img src="<?php echo $post['bild'];?>";?>" />
                 </figure>
                 <h3><?php echo $post['headline'];?></h3>
                 <summary><?php echo $post['text'];?></summary>
