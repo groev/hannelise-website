@@ -1083,8 +1083,7 @@ body .column-filter-widget {
 }
 
 .row.row-logos {
-	margin: 0 auto;
-	max-width: 800px;
+	@include wrapped;
 	padding: 6rem 0;
 	h2 {
 		text-align: center;

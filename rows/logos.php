@@ -14,7 +14,7 @@
 <script>
 jQuery(document).ready(function($) {
   $('.logo-slider').slick({
-    slidesToShow: 3,
+    slidesToShow: 4,
   slidesToScroll: 1,
   autoplay: true,
   arrows: true,
