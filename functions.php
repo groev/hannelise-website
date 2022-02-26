@@ -17,6 +17,7 @@
         public function load_inc() {
             require_once HLPATH.'/inc/settings.class.php';
             require_once HLPATH.'/inc/sortiment.model.php';
+            require_once HLPATH.'/inc/order.service.php';
 
         }
 
@@ -58,9 +59,17 @@
             remove_filter( 'the_content_feed', 'wp_staticize_emoji' );
             remove_filter( 'comment_text_rss', 'wp_staticize_emoji' ); 
             remove_filter( 'wp_mail', 'wp_staticize_emoji_for_email' );
-            add_filter( 'tiny_mce_plugins', 'disable_emojis_tinymce' );
-            add_filter( 'wp_resource_hints', 'disable_emojis_remove_dns_prefetch', 10, 2 );
+        
         }
          
     }  
     new HanneLise_Theme();
+
+
+    add_action('wp_mail_failed', function($error){
+        error_log(print_r($error,true));
+    });
+    function wpse27856_set_content_type(){
+        return "text/html";
+        }
+        add_filter( 'wp_mail_content_type','wpse27856_set_content_type' );
