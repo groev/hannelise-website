@@ -14,15 +14,22 @@
                 </tr>
             </thead>
             <tbody>
+                <?php $total = 0;?>
                 <?php if($data['cart']):foreach($data['cart'] as $item):?>
+                    <?php $total += floatval(str_replace(',','.',$item['Preis']))*$item['count'];?>
                     <tr>
                         <td><?php echo $item['ID'];?></td>
                         <td><?php echo $item['Name'];?></td>
                         <td><?php echo $item['count'];?></td>
                         <td><?php echo $item['Preis'];?> €</td>
-                        <td><?php echo number_format(floatval(str_replace(',','.',$item['Preis']))*$item['count'], 3, ',', '.');?> €</td>
+                        <td><?php echo number_format(floatval(str_replace(',','.',$item['Preis']))*$item['count'], 2, ',', '.');?> €</td>
                     </tr>
                 <?php endforeach;endif;?>
+                <tr>
+                    <td colspan="4">Gesamt</td>
+                    <td><?php  echo number_format($total, 2, ',', '.');?></td>
+
+                </tr>
             </tbody>
         </table>
     </body>
