@@ -20,7 +20,7 @@
                         <td><?php echo $item['Name'];?></td>
                         <td><?php echo $item['count'];?></td>
                         <td><?php echo $item['Preis'];?> €</td>
-                        <td><?php echo floatval(str_replace(',','.',$item['Preis']))*$item['count'];?></td>
+                        <td><?php echo number_format(floatval(str_replace(',','.',$item['Preis']))*$item['count'], 3, ',', '.');?> €</td>
                     </tr>
                 <?php endforeach;endif;?>
             </tbody>
