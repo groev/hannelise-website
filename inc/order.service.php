@@ -31,7 +31,6 @@ header("Access-Control-Allow-Headers: *");
 
         public function send_mail_to_company($data) {
             date_default_timezone_set('Europe/Berlin');
-
             $intro = '';
             $headers = array('Content-Type: text/html; charset=UTF-8','From: '.get_bloginfo('name').' <post@hannelise.de>');
             $to = 'm.westhofen@12-05.de';
@@ -45,7 +44,6 @@ header("Access-Control-Allow-Headers: *");
         
         public function send_mail_to_user($data) {
             date_default_timezone_set('Europe/Berlin');
-
             $intro = get_field('bestellung_intro', 'option');
             $headers = array('Content-Type: text/html; charset=UTF-8','From: '.get_bloginfo('name').' <post@hannelise.de>');
             $to = $data['email'];
@@ -53,7 +51,6 @@ header("Access-Control-Allow-Headers: *");
             ob_start();
             include get_template_directory().'/inc/mail.view.php';
             $body = ob_get_clean();
-            $headers = array('Content-Type: text/html; charset=UTF-8');
             return wp_mail( $to, $subject, $body, $headers );
         }
 

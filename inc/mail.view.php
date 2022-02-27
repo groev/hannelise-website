@@ -2,10 +2,10 @@
     <body>
         <h1>Neue Bestellung auf www.hannelise.de</h1>
         <p><?php echo $intro;?></p>
-        <p>Name: <?php echo $data['name'];?></p>
-        <p>E-Mail: <?php echo $data['email'];?></p>
-        <p>Bestelldatum: <?php echo date('d.m.Y - H:i');?></p>
-        <p>Abholdatum: <?php echo $data['datum'];?></p>
+        <p>Name: <?php echo $data['name'];?><br />
+        E-Mail: <?php echo $data['email'];?><br />
+        Bestelldatum: <?php echo date('d.m.Y - H:i');?><br />
+        Abholdatum: <?php echo $data['datum'];?></p>
         <table style="width:100%;">
             <thead>
                 <tr>
