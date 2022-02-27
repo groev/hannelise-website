@@ -33,7 +33,7 @@ header("Access-Control-Allow-Headers: *");
             date_default_timezone_set('Europe/Berlin');
             $intro = '';
             $headers = array('Content-Type: text/html; charset=UTF-8','From: '.get_bloginfo('name').' <post@hannelise.de>');
-            $to = 'm.westhofen@12-05.de';
+            $to = get_field('bestellung_email', 'option');
             $subject = 'Neue Bestellung im hannelise Shop';
             ob_start();
             include get_template_directory().'/inc/mail.view.php';
