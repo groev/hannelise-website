@@ -3,7 +3,6 @@
 
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: *");
-
     class HanneliseOrderService {
         public function __construct() {
             add_action('rest_api_init', array($this, 'register_endpoint'));
@@ -31,6 +30,8 @@ header("Access-Control-Allow-Headers: *");
         }
 
         public function send_mail_to_company($data) {
+            date_default_timezone_set('Europe/Berlin');
+
             $intro = '';
             $headers = array('Content-Type: text/html; charset=UTF-8','From: '.get_bloginfo('name').' <post@hannelise.de>');
             $to = 'm.westhofen@12-05.de';
@@ -43,6 +44,8 @@ header("Access-Control-Allow-Headers: *");
         }
         
         public function send_mail_to_user($data) {
+            date_default_timezone_set('Europe/Berlin');
+
             $intro = get_field('bestellung_intro', 'option');
             $headers = array('Content-Type: text/html; charset=UTF-8','From: '.get_bloginfo('name').' <post@hannelise.de>');
             $to = $data['email'];
