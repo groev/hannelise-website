@@ -8,7 +8,7 @@
         <?php 
             $new_date = date('Y-m-d', strtotime($data['Datum']));
         ?>
-        <p>Abholdatum: <?php $new_date->format('d.mY');?></p>
+        <p>Abholdatum: <?php echo $new_date->format('d.m.Y');?></p>
 
 
 
