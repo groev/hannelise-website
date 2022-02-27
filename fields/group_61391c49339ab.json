@@ -128,6 +128,43 @@
                     "return_format": "url"
                 }
             ]
+        },
+        {
+            "key": "field_621ac6b9d7b51",
+            "label": "Bestellung Einleitung",
+            "name": "bestellung_intro",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_621ac6c5d7b52",
+            "label": "Bestellung E-Mail",
+            "name": "bestellung_email",
+            "type": "email",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         }
     ],
     "location": [
@@ -147,5 +184,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1633370729
+    "modified": 1645922001
 }
