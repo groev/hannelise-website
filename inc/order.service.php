@@ -31,6 +31,7 @@ header("Access-Control-Allow-Headers: *");
         }
 
         public function send_mail_to_company($data) {
+            $intro ="Hallo!<br />Hier ist die neue Bestellung:";
             $headers = array('Content-Type: text/html; charset=UTF-8','From: '.get_bloginfo('name').' <post@hannelise.de>');
             $to = 'm.westhofen@12-05.de';
             $subject = 'Neue Bestellung im hannelise Shop';
@@ -42,6 +43,7 @@ header("Access-Control-Allow-Headers: *");
         }
         
         public function send_mail_to_user($data) {
+            $intro = "Hallo ".$data['name'].'<br />Vielen Dank für deine Bestellung bei hannelise. Die Details findest du im anbei. Bitte hole die Ware zum ausgewhälten Datum in unserem Geschäft am Walder Kirchplatz 7 ab 9 Uhr ab.'; 
             $headers = array('Content-Type: text/html; charset=UTF-8','From: '.get_bloginfo('name').' <post@hannelise.de>');
             $to = $data['email'];
             $subject = 'Deine Bestellung bei Hannelise';

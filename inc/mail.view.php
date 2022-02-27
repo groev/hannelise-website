@@ -1,8 +1,11 @@
 <html>
     <body>
         <h1>Neue Bestellung auf www.hannelise.de</h1>
+        <p><?php echo $intro;?></p>
         <p>Name: <?php echo $data['name'];?></p>
         <p>E-Mail: <?php echo $data['email'];?></p>
+        <p>Bestelldatum: <?php echo date('d.m.Y - H:i');?></p>
+        <p>Abholdatum: <?php echo $data['datum'];?></p>
         <table>
             <thead>
                 <tr>
@@ -27,7 +30,7 @@
                 <?php endforeach;endif;?>
                 <tr>
                     <td colspan="4">Gesamt</td>
-                    <td><?php  echo number_format($total, 2, ',', '.');?></td>
+                    <td><?php  echo number_format($total, 2, ',', '.');?> €</td>
 
                 </tr>
             </tbody>
