@@ -5,7 +5,14 @@
         <p>Name: <?php echo $data['name'];?></p>
         <p>E-Mail: <?php echo $data['email'];?></p>
         <p>Bestelldatum: <?php echo date('d.m.Y - H:i');?></p>
-        <p>Abholdatum: <?php echo $data['datum'];?></p>
+        <?php 
+            $new_date = date('Y-m-d', strtotime($data['Datum']));
+        ?>
+        <p>Abholdatum: <?php $new_date->format('d.mY');?></p>
+
+
+
+        
         <table style="width:100%;">
             <thead>
                 <tr>
