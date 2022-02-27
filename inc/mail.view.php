@@ -6,7 +6,7 @@
         <p>E-Mail: <?php echo $data['email'];?></p>
         <p>Bestelldatum: <?php echo date('d.m.Y - H:i');?></p>
         <p>Abholdatum: <?php echo $data['datum'];?></p>
-        <table>
+        <table style="width:100%;">
             <thead>
                 <tr>
                     <th>#</th>
@@ -29,8 +29,8 @@
                     </tr>
                 <?php endforeach;endif;?>
                 <tr>
-                    <td colspan="4">Gesamt</td>
-                    <td><?php  echo number_format($total, 2, ',', '.');?> €</td>
+                    <td colspan="4"><strong>Gesamt</strong></td>
+                    <td><strong><?php  echo number_format($total, 2, ',', '.');?> €</strong></td>
 
                 </tr>
             </tbody>
