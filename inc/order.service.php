@@ -32,6 +32,7 @@ header("Access-Control-Allow-Headers: *");
         public function send_mail_to_company($data) {
             date_default_timezone_set('Europe/Berlin');
             $intro = '';
+            $outro = '';
             $headers = array('Content-Type: text/html; charset=UTF-8','From: '.get_bloginfo('name').' <post@hannelise.de>');
             $to = get_field('bestellung_email', 'option');
             $subject = 'Neue Bestellung im hannelise Shop';
@@ -45,6 +46,7 @@ header("Access-Control-Allow-Headers: *");
         public function send_mail_to_user($data) {
             date_default_timezone_set('Europe/Berlin');
             $intro = get_field('bestellung_intro', 'option');
+            $outro = get_field('bestellung_outro', 'option');
             $headers = array('Content-Type: text/html; charset=UTF-8','From: '.get_bloginfo('name').' <post@hannelise.de>');
             $to = $data['email'];
             $subject = 'Deine Bestellung bei Hannelise';
