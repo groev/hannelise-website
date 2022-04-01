@@ -8,7 +8,7 @@
         Bestelldatum: <?php echo date('d.m.Y - H:i');?><br />
         Abholdatum: <?php echo $data['datum'];?></p>
         <table style="width:100%;">
-            <thead>
+            <thead style="text-align:left">
                 <tr>
                     <th>#</th>
                     <th>Bezeichnung</th>
