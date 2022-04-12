@@ -10,11 +10,11 @@
         <table style="width:100%;">
             <thead style="text-align:left">
                 <tr>
-                    <th>#</th>
-                    <th>Bezeichnung</th>
-                    <th>Stück</th>
-                    <th>Preis</th>
-                    <th>Gesamt</th>
+                    <th style="text-align:left;">#</th>
+                    <th style="text-align:left;">Bezeichnung</th>
+                    <t style="text-align:left;"h style="text-align-left;">Stück</th>
+                    <th style="text-align:left;">Preis</th>
+                    <th style="text-align:left;">Gesamt</th>
                 </tr>
             </thead>
             <tbody>
